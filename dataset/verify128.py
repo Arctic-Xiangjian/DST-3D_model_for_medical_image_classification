@@ -236,7 +236,8 @@ class CT3DDataset(Dataset):
         # For training, random crop. For val/test, center crop for consistency.
         if depth > self.input_len:
             if self.augment: # Random crop for training
-                start = (depth - self.input_len) // 2
+                # start = (depth - self.input_len) // 2
+                start = random.randint(0, depth - self.input_len)
             else: # Center crop for validation/testing
                 start = (depth - self.input_len) // 2
             vol = vol[:, :, start:start + self.input_len]
