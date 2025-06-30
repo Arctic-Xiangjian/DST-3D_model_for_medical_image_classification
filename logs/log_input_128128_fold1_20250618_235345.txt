@@ -1,0 +1,64 @@
+Running experiment timestamp: 2025-06-18 23:53:55.509525
+Using device: cuda:1
+Fold number: 1
+Maximum length of input sequence: 64
+Batch size: 32
+Learning rate: 0.002
+Weight decay: 1e-05
+Number of epochs: 100
+Early stopping patience: 30
+Random seed: 42
+Epoch 001 | loss 1.1566 | val acc 0.5626 f1 0.4520 auc 0.7822 | val acc (binary) 0.5910 f1 (binary) 0.5512 auc (binary) 0.7659
+🔼 New best model saved.
+Epoch 002 | loss 0.9401 | val acc 0.5626 f1 0.4520 auc 0.8055 | val acc (binary) 0.5910 f1 (binary) 0.5512 auc (binary) 0.8032
+Epoch 003 | loss 0.8500 | val acc 0.4515 f1 0.2154 auc 0.8317 | val acc (binary) 0.4515 f1 (binary) 0.3183 auc (binary) 0.8545
+Epoch 004 | loss 0.7786 | val acc 0.6572 f1 0.5508 auc 0.8581 | val acc (binary) 0.7943 f1 (binary) 0.7912 auc (binary) 0.8679
+🔼 New best model saved.
+Epoch 005 | loss 0.6779 | val acc 0.5059 f1 0.4342 auc 0.8968 | val acc (binary) 0.6738 f1 (binary) 0.6006 auc (binary) 0.8950
+Epoch 006 | loss 0.6304 | val acc 0.5721 f1 0.5727 auc 0.9217 | val acc (binary) 0.6596 f1 (binary) 0.5769 auc (binary) 0.9158
+Epoch 007 | loss 0.5190 | val acc 0.6785 f1 0.6514 auc 0.9151 | val acc (binary) 0.7565 f1 (binary) 0.7444 auc (binary) 0.8830
+🔼 New best model saved.
+Epoch 008 | loss 0.4691 | val acc 0.7376 f1 0.7155 auc 0.9431 | val acc (binary) 0.8132 f1 (binary) 0.8130 auc (binary) 0.9337
+🔼 New best model saved.
+Epoch 009 | loss 0.4023 | val acc 0.4492 f1 0.4190 auc 0.7633 | val acc (binary) 0.5532 f1 (binary) 0.3656 auc (binary) 0.6449
+Epoch 010 | loss 0.3672 | val acc 0.4563 f1 0.4392 auc 0.8667 | val acc (binary) 0.5579 f1 (binary) 0.3899 auc (binary) 0.8412
+Epoch 011 | loss 0.3362 | val acc 0.8582 f1 0.8442 auc 0.9700 | val acc (binary) 0.8771 f1 (binary) 0.8763 auc (binary) 0.9659
+🔼 New best model saved.
+Epoch 012 | loss 0.2993 | val acc 0.8865 f1 0.8647 auc 0.9779 | val acc (binary) 0.9125 f1 (binary) 0.9124 auc (binary) 0.9783
+🔼 New best model saved.
+Epoch 013 | loss 0.2667 | val acc 0.4539 f1 0.4279 auc 0.7712 | val acc (binary) 0.5508 f1 (binary) 0.3692 auc (binary) 0.5887
+Epoch 014 | loss 0.2575 | val acc 0.7754 f1 0.7730 auc 0.9214 | val acc (binary) 0.8251 f1 (binary) 0.8184 auc (binary) 0.9131
+Epoch 015 | loss 0.2467 | val acc 0.9173 f1 0.9078 auc 0.9830 | val acc (binary) 0.9362 f1 (binary) 0.9358 auc (binary) 0.9877
+🔼 New best model saved.
+Epoch 016 | loss 0.2074 | val acc 0.6809 f1 0.6954 auc 0.9388 | val acc (binary) 0.7305 f1 (binary) 0.7029 auc (binary) 0.9160
+Epoch 017 | loss 0.1916 | val acc 0.6998 f1 0.6945 auc 0.9192 | val acc (binary) 0.7565 f1 (binary) 0.7236 auc (binary) 0.9049
+Epoch 018 | loss 0.2209 | val acc 0.8652 f1 0.8645 auc 0.9711 | val acc (binary) 0.9031 f1 (binary) 0.9000 auc (binary) 0.9792
+Epoch 019 | loss 0.1803 | val acc 0.8416 f1 0.8179 auc 0.9719 | val acc (binary) 0.8700 f1 (binary) 0.8700 auc (binary) 0.9713
+Epoch 020 | loss 0.1842 | val acc 0.5437 f1 0.5515 auc 0.8920 | val acc (binary) 0.6194 f1 (binary) 0.5232 auc (binary) 0.8278
+Epoch 021 | loss 0.1632 | val acc 0.5106 f1 0.5216 auc 0.8035 | val acc (binary) 0.5957 f1 (binary) 0.5111 auc (binary) 0.6799
+Epoch 022 | loss 0.1832 | val acc 0.8416 f1 0.8361 auc 0.9722 | val acc (binary) 0.8605 f1 (binary) 0.8526 auc (binary) 0.9726
+Epoch 023 | loss 0.1537 | val acc 0.7163 f1 0.7064 auc 0.9617 | val acc (binary) 0.7447 f1 (binary) 0.7063 auc (binary) 0.9705
+Epoch 024 | loss 0.1486 | val acc 0.7943 f1 0.7918 auc 0.9500 | val acc (binary) 0.8416 f1 (binary) 0.8392 auc (binary) 0.9311
+Epoch 025 | loss 0.1441 | val acc 0.6383 f1 0.5935 auc 0.9004 | val acc (binary) 0.6619 f1 (binary) 0.6459 auc (binary) 0.8919
+Epoch 026 | loss 0.1397 | val acc 0.8487 f1 0.8168 auc 0.9634 | val acc (binary) 0.8676 f1 (binary) 0.8676 auc (binary) 0.9406
+Epoch 027 | loss 0.1642 | val acc 0.4350 f1 0.4070 auc 0.7987 | val acc (binary) 0.5437 f1 (binary) 0.3659 auc (binary) 0.6346
+Epoch 028 | loss 0.1314 | val acc 0.7352 f1 0.7007 auc 0.9411 | val acc (binary) 0.8487 f1 (binary) 0.8399 auc (binary) 0.9459
+Epoch 029 | loss 0.1328 | val acc 0.7896 f1 0.7853 auc 0.9275 | val acc (binary) 0.8274 f1 (binary) 0.8273 auc (binary) 0.9139
+Epoch 030 | loss 0.1278 | val acc 0.7447 f1 0.7128 auc 0.9011 | val acc (binary) 0.8629 f1 (binary) 0.8562 auc (binary) 0.9431
+Epoch 031 | loss 0.1086 | val acc 0.8723 f1 0.8649 auc 0.9745 | val acc (binary) 0.9054 f1 (binary) 0.9034 auc (binary) 0.9663
+Epoch 032 | loss 0.1017 | val acc 0.8392 f1 0.8281 auc 0.9726 | val acc (binary) 0.8865 f1 (binary) 0.8824 auc (binary) 0.9788
+Epoch 033 | loss 0.1331 | val acc 0.7754 f1 0.7056 auc 0.9393 | val acc (binary) 0.9125 f1 (binary) 0.9099 auc (binary) 0.9792
+Epoch 034 | loss 0.1245 | val acc 0.5745 f1 0.5912 auc 0.9009 | val acc (binary) 0.6501 f1 (binary) 0.5717 auc (binary) 0.8569
+Epoch 035 | loss 0.0909 | val acc 0.6430 f1 0.6668 auc 0.9289 | val acc (binary) 0.6998 f1 (binary) 0.6511 auc (binary) 0.8896
+Epoch 036 | loss 0.0857 | val acc 0.8865 f1 0.8816 auc 0.9813 | val acc (binary) 0.9125 f1 (binary) 0.9098 auc (binary) 0.9827
+Epoch 037 | loss 0.0928 | val acc 0.8794 f1 0.8719 auc 0.9825 | val acc (binary) 0.9007 f1 (binary) 0.9007 auc (binary) 0.9824
+Epoch 038 | loss 0.0830 | val acc 0.7778 f1 0.7932 auc 0.9571 | val acc (binary) 0.8085 f1 (binary) 0.7918 auc (binary) 0.9363
+Epoch 039 | loss 0.0949 | val acc 0.4492 f1 0.4334 auc 0.7931 | val acc (binary) 0.5437 f1 (binary) 0.3746 auc (binary) 0.6140
+Epoch 040 | loss 0.1069 | val acc 0.9054 f1 0.9015 auc 0.9818 | val acc (binary) 0.9314 f1 (binary) 0.9299 auc (binary) 0.9841
+Epoch 041 | loss 0.0851 | val acc 0.4846 f1 0.4975 auc 0.8268 | val acc (binary) 0.6667 f1 (binary) 0.5909 auc (binary) 0.7786
+Epoch 042 | loss 0.1003 | val acc 0.7045 f1 0.7237 auc 0.9452 | val acc (binary) 0.7423 f1 (binary) 0.7041 auc (binary) 0.9208
+Epoch 043 | loss 0.0975 | val acc 0.9007 f1 0.8992 auc 0.9798 | val acc (binary) 0.9243 f1 (binary) 0.9225 auc (binary) 0.9781
+Epoch 044 | loss 0.0616 | val acc 0.7470 f1 0.7670 auc 0.9513 | val acc (binary) 0.7920 f1 (binary) 0.7747 auc (binary) 0.9375
+Epoch 045 | loss 0.0752 | val acc 0.9078 f1 0.9023 auc 0.9834 | val acc (binary) 0.9314 f1 (binary) 0.9297 auc (binary) 0.9851
+Early stopping after 30 epochs without improvement.
+Test metrics – acc: 0.9297  f1: 0.9288  auc: 0.9852 | acc (binary): 0.9450  f1 (binary): 0.9424  auc (binary): 0.9843
